@@ -1,1 +1,1 @@
-These are various, hoepfully useful images.
+These are various, hopefully useful images.
