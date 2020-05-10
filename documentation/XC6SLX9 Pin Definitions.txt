@@ -1,0 +1,36 @@
+//All definitions are taken directly from the schematic
+//https://github.com/wilhelmzeuschner/spartan-6-xc6slx9-rz-easyfpga-x1/blob/master/documentation/Xilinx%20Schematic%20Board%20Basic%20Edition%201.0.pdf
+//Main repository: https://github.com/wilhelmzeuschner/spartan-6-xc6slx9-rz-easyfpga-x1
+
+//Single LEDs
+NET LED0 LOC = P29;
+NET LED1 LOC = P30;
+NET LED2 LOC = P32;
+NET LED3 LOC = P33;
+
+//7-Segment LED Display (todo)
+
+
+//Buttons
+NET K1 LOC = P21;
+NET K2 LOC = P23;
+NET K3 LOC = P24;
+NET K4 LOC = P26;
+NET RESET LOC = P27;
+
+//Clocks (not all tested which one does what)
+NET CLK0 LOC = P22;						//50MHz Clock (referenced in Guide no. 5)
+NET S_CLK LOC = P51;						//? marked as USERCCLK in Schematic
+
+
+//Sensors and Outputs
+NET IR LOC = P34;							//IR Sensor
+NET BUZZER LOC = P141;				//Buzzer
+
+//BUS IO Pins
+NET RX LOC = P104;						//UART RX
+NET TX LOC = P105;						//UART TX
+NET I2C_SDA LOC = P112;				//I²C SDA
+NET I2C_SCL LOC = P111;				//I²C SCL
+
+//NET  LOC = P;								//Template
