@@ -7,7 +7,9 @@ I have created a pin definitions file under "documentation". All information in 
 It's not completed yet.
 
 As a general info: you can use the Xilinx ISE WebPack Edition for free to program this FPGA: https://www.xilinx.com/products/design-tools/ise-design-suite/ise-webpack.html
+
 You can in fact install and run it on Windows 10 by following this guide: https://www.youtube.com/watch?v=VMEIPCjqinA
+
 Make sure that you download the correct file from Xilinx (not the Virtual machine version).
 
 ![Top Side][top]
