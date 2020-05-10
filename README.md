@@ -1,4 +1,4 @@
-# spartan-6-xc6slx9-rz-easyfpga-x1
+# spartan-6 xc6slx9 rz-easyfpga-x1 Dev Board Information
 Files and Information regarding the Spartan 6 based Dev Board from China
 
 ![Top Side][top]
